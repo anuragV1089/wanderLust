@@ -14,16 +14,19 @@ body {
 /* Navbar */
 .navbar {
   height: 5rem;
-  background-color: white !important;
+  background-color: #afddff !important;
 }
 
 .fa-compass {
-  color: #fe242d;
+  color: black;
   font-size: 2rem;
+  border-radius: 50%;
+  border: solid black 1px;
 }
 
 .nav-link {
-  color: #222222 !important;
+  color: #000 !important;
+  font-weight: 700 !important;
 }
 
 .f-info-links a {
@@ -43,6 +46,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 4px;
 }
 
 .f-info-socials i {
@@ -53,7 +57,7 @@ body {
 .f-info {
   display: flex;
   height: 8rem;
-  background-color: #ebebeb;
+  background-color: #afddff;
   flex-wrap: wrap;
   justify-content: center;
   align-items: space-evenly;
@@ -94,7 +98,8 @@ body {
 }
 
 .add-btn {
-  background-color: #fe242d !important;
+  color: #000 !important;
+  background-color: #ffecdb !important;
   border: none !important;
 }
 
@@ -105,6 +110,9 @@ body {
 
 .show-btn {
   width: 90%;
+  background-color: #ffecdb;
+  color: #000;
+  margin-bottom: 15px;
 }
 
 .show-card {
@@ -115,6 +123,11 @@ body {
 #map {
   height: 400px;
   width: 80vh;
+}
+
+.user-btn {
+  color: #000 !important;
+  background-color: #ffecdb !important;
 }
 
 /* For index.ejs */
